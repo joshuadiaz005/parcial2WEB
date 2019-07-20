@@ -1,0 +1,38 @@
+.boxed-shadow {
+    box-shadow: 3px 3px 3px rgba(34, 34, 34, 0.12);
+}
+
+.text-shadow {
+    text-shadow: 3px 3px 3px rgba(34, 34, 34, 0.12);
+}
+
+.nombre-usuario {
+    border-right: 1px solid rgb(0, 0, 0);
+}
+
+.btn {
+    border-radius: 0 !important;
+}
+
+.card {
+    border: 3px solid rgb(0, 0, 0) !important;
+    border-radius: 0 !important;
+}
+
+.cuerpo-corto::after {
+    content: "...";
+}
+
+.login {
+    box-shadow: -3px 3px 3px rgba(34, 34, 34, 0.12);
+}
+
+.panel {
+    border: 3px solid rgb(0, 0, 0) !important;
+    text-align: center;
+}
+
+.upbottom-letters {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+}

@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+}
+
+group 'com.pucmm.edu'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.sparkjava:spark-core:2.7.2'
+    compile 'com.sparkjava:spark-template-freemarker:2.5.5'
+    compile 'com.h2database:h2:1.4.197'
+    compile 'org.jasypt:jasypt:1.9.2'
+    compile 'org.hibernate:hibernate-core:5.1.0.Final'
+    compile 'org.hibernate:hibernate-entitymanager:5.1.0.Final'
+    testCompile 'junit:junit:4.12'
+}
